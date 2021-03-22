@@ -11,3 +11,5 @@ This project is from the Day 31 code along video from Udemy's 50 projects in 50 
 ### Things Learned
 
 * String.fromCharCode() will return a character that corresponds to the UTF-16 number 
+* Putting a + in front of a string of numbers parses it to a number
+* checked property returns boolean from checkbox input type
