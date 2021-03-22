@@ -10,3 +10,4 @@ This project is from the Day 31 code along video from Udemy's 50 projects in 50 
 
 ### Things Learned
 
+* String.fromCharCode() will return a character that corresponds to the UTF-16 number 
