@@ -80,8 +80,23 @@ function generatePassword(upper, lower, number, symbol, length) {
   }
   // gets all characters from generatedPassword
   const finalPassword = generatedPassword.slice(0, length);
-  return finalPassword;
+
+  //  ***TO RANDOMIZE CHARACTER ORDER***
+
+  const finalRandomizedPassword = finalPassword
+    // split string into array at every character
+    .split("")
+    // sort array either ascending or descending depending on function (if + will ascend, if - will descend)
+    .sort(function () {
+      return Math.random() - 0.5;
+    })
+    // join array back to string
+    .join("");
+
+  return finalRandomizedPassword;
 }
+
+// ***Functions to get random characters of each type***
 
 function getRandomUpper() {
   // use Math.floor(Math.random( ) *26) to get random number from 1 - 26

@@ -6,7 +6,11 @@ This project is from the Day 31 code along video from Udemy's 50 projects in 50 
 
 ### Overall Impression
 
-I made a password generator as one of my first JavaScript projects about a year ago, so it was interesting to revisit that concept. I believe the functions to get random characters were largely the same, but the function to actually generate the password was done in a different way (I believe there were a lot of if/else if statements in my first one). I don't like how it doesn't randomize the order in which types of characters appear, so I think I will add that feature at some point.
+I made a password generator as one of my first JavaScript projects about a year ago, so it was interesting to revisit that concept. I believe the functions to get random characters were largely the same, but the function to actually generate the password was done in a different way (I believe there were a lot of if/else if statements in my first one). 
+
+I didn't like how it didn't randomize the order in which types of characters appear, so I added a function to deal with that. It is not a true Fisher-Yates shuffle, but it is good enough for this project.
+
+https://stackoverflow.com/questions/3943772/how-do-i-shuffle-the-characters-in-a-string-in-javascript
 
 ### Things Learned
 
